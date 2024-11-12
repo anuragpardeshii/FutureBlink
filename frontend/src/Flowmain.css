@@ -1,0 +1,40 @@
+.custom-node {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-node-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-node-add-btn {
+    width: 25px;
+    height: 25px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+  }
+  
+  .custom-node-title {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+  .custom-node-body {
+    font-size: .5rem;
+  }
+
+  .custom-node-body p {
+    margin: 0 !important;
+  }
+  
